@@ -34,7 +34,7 @@ $ flask run
 To start the program, the user should open an Anaconda Prompt terminal and navigate to the directory of `main.py` and run the following command:
 
 ```
-python main.py
+python app.py
 ```
 Alternatively, the user can use `flask run` to run the program.
 ```
