@@ -1,33 +1,15 @@
-# 2Dweb2023
 # DDW 2D Web App
-t
-  
 
 This Web App explores predicting food security using *Multiple Linear Regression*.
 
   
 
 The region we have chosen the Sub-Saharan African region as that region has the world's highest rate of malnutrition. Using metrics that would reflect the factors affecting food insecurity, we hope to predict where to send food to as a Humanitarian Food Aid NGO.
-
   
-
 # Packages used
 
 Download the whole zip file and go to the root directory of the project.
-
   
-
-## Pip installation
-
-```
-pip install Flask
-pip install numpy
-pip install pandas
-pip install Werkzeug
-```
-
-  
-
 # How to use
 
 To clone and run this application, you'll need Git and Node.js (which comes with npm) installed on your computer. From your command line:
@@ -51,15 +33,10 @@ $ flask run
 
 To start the program, the user should open an Anaconda Prompt terminal and navigate to the directory of `main.py` and run the following command:
 
-
 ```
 python main.py
 ```
-
 Alternatively, the user can use `flask run` to run the program.
-
-  
-
 ```
 flask run
 ```
