@@ -30,6 +30,25 @@ pip install Werkzeug
 
 # How to use
 
+To clone and run this application, you'll need Git and Node.js (which comes with npm) installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone 
+
+# Go into the repository
+$ cd app
+
+# Install dependencies
+$ pip install Flask
+$ pip install numpy
+$ pip install pandas
+$ pip install Werkzeug
+
+# Run the app
+$ flask run
+```
+
 To start the program, the user should open an Anaconda Prompt terminal and navigate to the directory of `main.py` and run the following command:
 
 
@@ -51,24 +70,6 @@ Press CTRL+C to quit
 * Restarting with watchdog (windowsapi)
 * Debugger is active!
 * Debugger PIN: XXX-XXX-XXX [This is a randomly generated string of digits]
-```
-To clone and run this application, you'll need Git and Node.js (which comes with npm) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-$ git clone 
-
-# Go into the repository
-$ cd app
-
-# Install dependencies
-$ pip install Flask
-$ pip install numpy
-$ pip install pandas
-$ pip install Werkzeug
-
-# Run the app
-$ flask run
 ```
 
 The website can be accessed by opening the above URL in a web browser. There is a Navigation Bar containing links to pages in the order that the user is intended to use them.
