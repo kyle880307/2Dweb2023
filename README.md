@@ -104,8 +104,9 @@ app/
 	├── about.html
 	├── base.html
 	├── excel.html
-	├── index.html
-	└── input.html
+	├── index.html	
+	├── input.html
+	└── input2.html
 ```
 
   
