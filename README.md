@@ -52,12 +52,14 @@ Press CTRL+C to quit
 * Debugger is active!
 * Debugger PIN: XXX-XXX-XXX [This is a randomly generated string of digits]
 ```
+To clone and run this application, you'll need Git and Node.js (which comes with npm) installed on your computer. From your command line:
+
 ```bash
 # Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
+$ git clone 
 
 # Go into the repository
-$ cd electron-markdownify
+$ cd app
 
 # Install dependencies
 $ pip install Flask
