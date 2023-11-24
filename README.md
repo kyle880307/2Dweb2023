@@ -81,6 +81,11 @@ app/
 	├── input.html
 	└── input2.html
 ```
+
+#Update and maintain
+
+The ML code is implement inside the Webapp allowing us to have more accurate predict in the future when we have more data just by updating the training.csv file
+
 # Pages
   
 ## Overview Page
