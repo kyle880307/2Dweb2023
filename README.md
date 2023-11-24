@@ -6,7 +6,7 @@ The region we have chosen the Sub-Saharan African region as that region has the 
 
 # How to use
 
-To clone and run this application, you'll need Git installed on your computer. From your command line:
+To clone and run this application, you'll need Git installed on your computer. Or you can download the project folder aand open in Vscode or Anaconda From your command line:
 
 ```bash
 # Clone this repository
@@ -24,6 +24,7 @@ $ pip install Werkzeug
 # Run the app
 $ flask run
 ```
+
 
 To start the program, the user should open an Anaconda Prompt terminal and navigate to the directory of `main.py` and run the following command:
 
