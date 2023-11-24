@@ -55,20 +55,12 @@ Press CTRL+C to quit
 
 The website can be accessed by opening the above URL in a web browser. There is a Navigation Bar containing links to pages in the order that the user is intended to use them.
 
-1. Firstly, the user navigates to the 'Upload' page to upload a CSV file containing training data that they wish to build a model from.
+1. Firstly, the user navigates to the 'Upload' page to download the template.csv and upload a CSV file containing the data that they wish to predict.
 
-- The first column of the CSV file must be indices
 
-- The last 2 columns of the CSV file must be the target data
-
-- The columns in between must be the feature data
-
-- For testing purposes, the user can upload the provided csv file named `dataset_testtrain_V2.csv`
-
-2. Once uploaded, the user can click 'Show CSV' to view the predictions by the model. The user will be redirected to the 'Excel' Page to view the predictions.
+2. Once uploaded, the user can click 'Show CSV' to view the predictions by the model. The user will be redirected to the 'Predict' Page to view the predictions.
 
 - If there are more than 10 indices, the program will automatically paginate the predictions.
- 
   
 
 # File Structure
