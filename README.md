@@ -14,7 +14,7 @@ To clone and run this application, you'll need Git and Node.js (which comes with
 
 ```bash
 # Clone this repository
-$ git clone 
+$ git clone https://github.com/kyle880307/2Dweb2023.git
 
 # Go into the repository
 $ cd app
