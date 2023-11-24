@@ -84,7 +84,7 @@ app/
 
 #Update and maintain
 
-The ML code is implement inside the Webapp allowing us to have more accurate predict in the future when we have more data just by updating the training.csv file
+The ML code is implement inside the Webapp allowing us to have more accurate predict in the future when we have more data by updating the trainingdata.csv file
 
 # Pages
   
