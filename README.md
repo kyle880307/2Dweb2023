@@ -6,7 +6,7 @@ The region we have chosen the Sub-Saharan African region as that region has the 
 
 # How to use
 
-To clone and run this application, you'll need Git and Node.js (which comes with npm) installed on your computer. From your command line:
+To clone and run this application, you'll need Git installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
