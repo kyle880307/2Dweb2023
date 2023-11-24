@@ -4,10 +4,6 @@ This Web App explores predicting food security using *Multiple Linear Regression
   
 The region we have chosen the Sub-Saharan African region as that region has the world's highest rate of malnutrition. Using metrics that would reflect the factors affecting food insecurity, we hope to predict where to send food to as a Humanitarian Food Aid NGO.
 
-# Packages used
-
-Download the whole zip file and go to the root directory of the project.  
-
 # How to use
 
 To clone and run this application, you'll need Git and Node.js (which comes with npm) installed on your computer. From your command line:
