@@ -26,19 +26,7 @@ $ flask run
 ```
 
 
-To start the program, the user should open an Anaconda Prompt terminal and navigate to the directory of `main.py` and run the following command:
-
-  
-
-```
-
-python main.py
-
-```
-
-Alternatively, the user can use `flask run` to run the program.
-
-  
+To start the program, the user should open an Anaconda Prompt/Vscode terminal and navigate to the directory of app folder and run the following command:
 
 ```
 
@@ -46,9 +34,10 @@ flask run
 
 ```
 
+Alternatively, the user can use `python main.py` to run the program.
+
 Once complete, the terminal shall output the following lines:
 
-  
 
 ```
 
