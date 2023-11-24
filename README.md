@@ -1,15 +1,13 @@
 # DDW 2D Web App
 
 This Web App explores predicting food security using *Multiple Linear Regression*.
-
   
-
 The region we have chosen the Sub-Saharan African region as that region has the world's highest rate of malnutrition. Using metrics that would reflect the factors affecting food insecurity, we hope to predict where to send food to as a Humanitarian Food Aid NGO.
-  
+
 # Packages used
 
-Download the whole zip file and go to the root directory of the project.
-  
+Download the whole zip file and go to the root directory of the project.  
+
 # How to use
 
 To clone and run this application, you'll need Git and Node.js (which comes with npm) installed on your computer. From your command line:
@@ -33,20 +31,40 @@ $ flask run
 
 To start the program, the user should open an Anaconda Prompt terminal and navigate to the directory of `main.py` and run the following command:
 
+  
+
 ```
-python app.py
+
+python main.py
+
 ```
+
 Alternatively, the user can use `flask run` to run the program.
+
+  
+
 ```
+
 flask run
+
 ```
+
 Once complete, the terminal shall output the following lines:
+
+  
+
 ```
+
 * Running on http://127.0.0.1:2020
+
 Press CTRL+C to quit
+
 * Restarting with watchdog (windowsapi)
+
 * Debugger is active!
+
 * Debugger PIN: XXX-XXX-XXX [This is a randomly generated string of digits]
+
 ```
 
 The website can be accessed by opening the above URL in a web browser. There is a Navigation Bar containing links to pages in the order that the user is intended to use them.
@@ -81,25 +99,21 @@ app/
 	├── about.html
 	├── base.html
 	├── excel.html
-	├── index.html	
+	├── index.html
 	├── input.html
 	└── input2.html
 ```
-
+# Pages
   
-
-# Features
-
+## Overview Page
+![enter image description here](https://i.imgur.com/sE5gRhN.png)
   
-  
-  
+This is the landing page where the user first arrives. It gives  a brief introduction behind the motivation for creating the Web App.
+## Upload Data
 
-## About page (welcome)
-
-  
-
-## Build Model
-
-  
-
+  ![enter image description here](https://i.imgur.com/ssZWG9J.png)
+This is where the user is able to upload a CSV file for the user to be able to build a model.
 ## Predict
+![enter image description here](https://i.imgur.com/qmGPvLr.png) This is where the user is able to make interpret predictions based on the training data.
+## About Page
+![enter image description here](https://i.imgur.com/WLwunhW.png)
