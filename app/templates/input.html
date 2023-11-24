@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Upload{% endblock %}
+{% block content %}
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Uploading & Reading CSV file</title>
+</head>
+
+<body>
+  <main role="main" class="col-md-9 mx-auto col-lg-10 pt-3 px-4">
+    <h2>Uploading & Reading CSV file</h2>
+    <div class="jumbotron">
+      <div class="col-sm-8 mx-auto">
+        <p style="color:blue;">Choose csv file to upload</p>
+        <div class="custom-file">
+          <form method="POST" enctype="multipart/form-data" action="/input">
+            <input type="file" class="custom-file-input" id="customFile" name="file" accept=".csv">
+            <label class="custom-file-label" for="customFile">Choose file</label>
+            <p>{{data}}</p>
+            <input class="btn btn-secondary active" type="submit" value="Upload">
+          </form>
+          <p></p>
+          <form action="{{ url_for('template') }}" method="get">
+            <button class="btn btn-secondary active" type="submit">Download Template</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script>
+    // Add the following code if you want the name of the file appear on select
+    $(".custom-file-input").on("change", function () {
+      var fileName = $(this).val().split("\\").pop();
+      $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+    });
+  </script>
+</body>
+
+</html>
+{% endblock %}
