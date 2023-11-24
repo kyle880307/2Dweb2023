@@ -20,7 +20,11 @@
             <input type="file" class="custom-file-input" id="customFile" name="file" accept=".csv">
             <label class="custom-file-label" for="customFile">Choose file</label>
             <p>{{data}}</p>
-            <input class="btn btn-secondary btn-lg active" type="submit" value="Upload">
+            <input class="btn btn-secondary active" type="submit" value="Upload">
+          </form>
+          <p></p>
+          <form action="{{ url_for('template') }}" method="get">
+            <button class="btn btn-secondary active" type="submit">Download Template</button>
           </form>
         </div>
       </div>

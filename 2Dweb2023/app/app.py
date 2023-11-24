@@ -24,6 +24,7 @@ def uploadFile():
         data_filename = secure_filename(f.filename)
         if data_filename == "":
             return render_template("input.html", data="No file selected")
+        
         f.filename = "cal.csv"
 
         data_filename = secure_filename(f.filename)
@@ -55,6 +56,11 @@ def showData():
 @app.route('/download')
 def download():
     file_path = "static\\csv\\Data.csv"
+    return send_file(file_path, as_attachment=True)
+
+@app.route('/template')
+def template():
+    file_path = "static\\csv\\template.csv"
     return send_file(file_path, as_attachment=True)
 
 #route to about
