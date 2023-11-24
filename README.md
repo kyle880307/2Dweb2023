@@ -6,6 +6,8 @@ The region we have chosen the Sub-Saharan African region as that region has the 
 
 # How to use
 
+This Webapp is not able to run on Vocareum due to url return issue please follow the instruction to run the code
+
 To clone and run this application, you'll need Git installed on your computer. Or you can download the project folder aand open in Vscode or Anaconda From your command line:
 
 ```bash
